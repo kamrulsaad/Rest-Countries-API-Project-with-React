@@ -11,7 +11,6 @@ const Countries = () => {
   },[])
     return (
         <div>
-            <h1>Search what you need!!</h1>
             <div className="Countries">
                 {
                     countries.map( country => <Country 
